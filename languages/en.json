@@ -1,0 +1,7 @@
+{
+	"plugin-data":
+	{
+		"name": "Tag Selection",
+		"description": "Replace the comma-separated tag input with a selectable tag list"
+	}
+}
