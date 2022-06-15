@@ -15,7 +15,10 @@ $(document).ready(function() {
         tags: true,
         allowClear: true,
         multiple: "multiple",
-       data: taglistData
+        ajax: {
+            url: '/plugins/tag-selection/json.json',
+            dataType: 'json'
+        }
     }).trigger('change');
 
     $('#jstags1').on('change', function(e) {
